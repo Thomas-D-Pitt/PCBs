@@ -1,0 +1,83 @@
+Change Component Designator: OldDesignator=3V3 NewDesignator=D_3V3
+Change Component Designator: OldDesignator=5V 3V3 GND NewDesignator=Input
+Change Component Designator: OldDesignator=5V NewDesignator=D_5V
+Change Component Designator: OldDesignator=EN NewDesignator=D_EN
+Change Component Designator: OldDesignator=FUSE NewDesignator=D_FUSE
+Change Component Designator: OldDesignator=R? NewDesignator=R1
+Change Component Designator: OldDesignator=SW? NewDesignator=SW1
+Add Component: Footprint Not Found RESC15077X105N
+Added Component: Designator=R3(RES_0603)
+Add component (AddParameter): Name = "Distributor Link"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=R4(RES_0603)
+Add component (AddParameter): Name = "Distributor Link"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=R5(RES_0603)
+Add component (AddParameter): Name = "Distributor Link"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=R6(RES_0603)
+Add component (AddParameter): Name = "Distributor Link"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=R7(BI-35WR10KLFTR-3_V)
+Add component (AddParameter): Name = "Case/Package"; Value = "35WR10KLFTR"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Composition"; Value = "Potentiometer"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet URL"; Value = "http://www.bitechnologies.com/pdfs/35.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet Version"; Value = "Feb-10"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "BI Technologies"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer URL"; Value = "http://www.bi-technologies.net/"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Operating Temperature"; Value = "125°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Operating Temperature"; Value = "-40°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Technology"; Value = "SM"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Description"; Value = "3-Pin Surface Mount Device, Body 3 x 3.1 mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Quantity"; Value = "2000"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Reference"; Value = "35WR10KLFTR"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "TapeandReel"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pins"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power"; Value = "100mW"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Resistance"; Value = "10k"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS Compliant"; Value = "True"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "25%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating"; Value = "50V"; VariantName = "[No Variations]"
+Added Component: Designator=SW2(DTSM-3)
+Add component (AddParameter): Name = "Manufacturer"; Value = "Diptronics"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "DTSM-3"; VariantName = "[No Variations]"
+Add Component: Footprint Not Found TO-220_REN
+Add Component: Footprint Not Found SOIC-16_ONS
+Add Pin To Net: Unknown Pin: Pin C1-1
+Add Pin To Net: Unknown Pin: Pin C1-2
+Added Pin To Net: NetName=5V Pin=R3-2
+Added Pin To Net: NetName=GND Pin=R5-1
+Added Pin To Net: NetName=5V Pin=R6-2
+Added Pin To Net: NetName=GND Pin=R7-1
+Added Pin To Net: NetName=5V Pin=SW2-2
+Add Pin To Net: Unknown Pin: Pin U2-8
+Add Pin To Net: Unknown Pin: Pin U2-16
+Added Pin To Net: NetName=CMPIN Pin=R4-1
+Added Net: Name=CMPIN
+Added Pin To Net: NetName=CMPREF Pin=R7-2
+Added Net: Name=CMPREF
+Added Pin To Net: NetName=NetR4_2 Pin=R4-2
+Added Pin To Net: NetName=NetR4_2 Pin=R5-2
+Added Net: Name=NetR4_2
+Added Pin To Net: NetName=NetR6_1 Pin=R6-1
+Added Pin To Net: NetName=NetR6_1 Pin=R7-3
+Added Net: Name=NetR6_1
+Add Net: Net with name "Out_27" already exists
+Add Net: Net with name "Out_28" already exists
+Added Net: Name=SHUNT_LOW
+Added Net: Name=SR_Q
+Added Pin To Net: NetName=SR_R Pin=R3-1
+Added Net: Name=SR_R
+Added Pin To Net: NetName=SR_S Pin=SW2-1
+Added Net: Name=SR_S
+Added Class: Name=CurrentSensorLatch
+Added Member To Class: ClassName=Shifter Member=Component C15 22uF
+Added Member To Class: ClassName=Shifter Member=Component C17 100nF
+Added Member To Class: ClassName=Shifter Member=Component D_3V3 GREEN
+Added Member To Class: ClassName=Shifter Member=Component R44 1k
+Added Room: Name=CurrentSensorLatch

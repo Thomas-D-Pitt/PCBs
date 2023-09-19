@@ -1,0 +1,38 @@
+Removed Pin From Net: NetName=MCU_OSC_IN Pin=X1-1
+Removed Pin From Net: NetName=GND Pin=X1-2
+Removed Pin From Net: NetName=XTAL_IN Pin=X1-3
+Removed Pin From Net: NetName=GND Pin=X1-4
+Removed Member From Class: ClassName=MCU Member=X1
+Added Component: Designator=Y?(FP-ABM8-MFG)
+Add component (AddParameter): Name = "Accuracy"; Value = "20ppm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Case/Package"; Value = "CSMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Depth"; Value = "2.5mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ESR (Equivalent Series Resistance)"; Value = "50R"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Frequency"; Value = "24MHz"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Frequency Stability"; Value = "50ppm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Frequency Tolerance"; Value = "20ppm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "0.031inch"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Lead Free"; Value = "Lead Free"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Length"; Value = "3.2mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Load Capacitance"; Value = "18pF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Operating Temperature"; Value = "70°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Operating Temperature"; Value = "-20°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mount"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number of Pins"; Value = "4"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Frequency"; Value = "24 MHz"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Quantity"; Value = "1000"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "Tape and Reel"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Radiation Hardening"; Value = "No"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "REACH SVHC"; Value = "No SVHC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Resistor Type"; Value = "Ceramic"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS Compliant"; Value = "Yes"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Series"; Value = "ABM8"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Series Resistance"; Value = "50R"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Termination"; Value = "SMD/SMT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "20ppm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Width"; Value = "2.5mm"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=MCU_OSC_IN Pin=Y?-1
+Added Pin To Net: NetName=GND Pin=Y?-2
+Added Pin To Net: NetName=XTAL_IN Pin=Y?-3
+Added Pin To Net: NetName=GND Pin=Y?-4
+Added Member To Class: ClassName=MCU Member=Component Y? ABM8-24.000MHZ-B2-T

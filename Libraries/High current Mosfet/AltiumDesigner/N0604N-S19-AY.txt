@@ -1,0 +1,59 @@
+# Created by Ultra Librarian 8.3.331 Copyright © 1999-2021
+# Frank Frank, Accelerated Designs
+
+StartFootprints
+
+Footprint (Name "TO-220_REN")
+Pad (Name "1") (Location 0, 0) (HoleSize 42) (Surface False) (Rotation 0) (ExpandMask 0) (ExpandPaste -31)
+
+PadShape (Size 62, 62) (Shape Rounded) (Layer Bottom)
+EndPad
+Pad (Name "2") (Location 100, 0) (HoleSize 42) (Surface False) (Rotation 0) (ExpandMask 0) (ExpandPaste -31)
+
+PadShape (Size 62, 62) (Shape Rounded) (Layer Bottom)
+EndPad
+Pad (Name "3") (Location 200, 0) (HoleSize 42) (Surface False) (Rotation 0) (ExpandMask 0) (ExpandPaste -31)
+
+PadShape (Size 62, 62) (Shape Rounded) (Layer Bottom)
+EndPad
+Pad (Name "4") (Location 100, 642) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 413, 276) (Shape Rectangular) (Layer Top)
+EndPad
+Line (Width 6) (Start -116.5, 790) (End -116.5, -41) (Layer Mechanical15) 
+Line (Width 6) (Start -116.5, -41) (End 316.5, -41) (Layer Mechanical15) 
+Line (Width 6) (Start 316.5, -41) (End 316.5, 790) (Layer Mechanical15) 
+Line (Width 6) (Start 316.5, 790) (End -116.5, 790) (Layer Mechanical15) 
+Polygon (PointCount 4) (Layer Mechanical15) 
+Point (-116.5, 790)
+Point (-116.5, -41)
+Point (316.5, -41)
+Point (316.5, 790)
+EndPolygon
+Line (Width 6) (Start -111.5, 145) (End 311.5, 145) (Layer TopOverlay) 
+Line (Width 6) (Start 311.5, 145) (End 311.5, 491.89173794) (Layer TopOverlay) 
+Line (Width 6) (Start -111.5, 491.89173794) (End -111.5, 145) (Layer TopOverlay) 
+Arc (Width 6) (Radius 5) (Location -181.5, 0) (StartAngle 0) (EndAngle 360) (Layer TopOverlay) 
+Line (Width 1) (Start -106.5, 150) (End 306.5, 150) (Layer Mechanical13) 
+Line (Width 1) (Start 306.5, 150) (End 306.5, 504) (Layer Mechanical13) 
+Line (Width 1) (Start 306.5, 504) (End -106.5, 504) (Layer Mechanical13) 
+Line (Width 1) (Start -106.5, 504) (End -106.5, 150) (Layer Mechanical13) 
+Arc (Width 0) (Radius 5) (Location -96.5, 20) (StartAngle 0) (EndAngle 360) (Layer Mechanical13) 
+Step (Name TO-220_REN.step)
+EndFootprint
+EndFootprints
+
+StartComponents
+
+Component (Name "N0604N-S19-AY") (PartCount 1) (DesPrefix "U?")
+Pin (Location 300, 0) (Rotation 180) (PinType Passive) (Length 300) (Width 0) (Designator Visible "1") (Name Visible "GATE") (PinSwap 0) (PartSwap 0) (PinSeq 1) (Part 1)
+Pin (Location 300, -100) (Rotation 180) (PinType Passive) (Length 300) (Width 0) (Designator Visible "2") (Name Visible "DRAIN") (PinSwap 0) (PartSwap 0) (PinSeq 2) (Part 1)
+Pin (Location 1500, -100) (Rotation 0) (PinType Passive) (Length 300) (Width 0) (Designator Visible "3") (Name Visible "SOURCE") (PinSwap 0) (PartSwap 0) (PinSeq 3) (Part 1)
+Pin (Location 1500, 0) (Rotation 0) (PinType Passive) (Length 300) (Width 0) (Designator Visible "4") (Name Visible "FIN") (PinSwap 0) (PartSwap 0) (PinSeq 4) (Part 1)
+Rectangle (Width 5) (Start 300, -300) (End 1500, 200) (Part 1)
+Parameter (Name "Mfr_Name") (Location 0, 0) (Height 50) (Rotation 0) (Justification Center) (Value "Renesas Electronics") (Part 1)
+Parameter (Name "RefDes") (Location 900, 400) (Height 82) (Rotation 0) (Justification Center) (Value "RefDes") (Part 1)
+Parameter (Name "Type") (Location 900, 300) (Height 82) (Rotation 0) (Justification Center) (Value "Type") (Part 1)
+Description (Value "No Description Available") (Part 1)
+Footprint (Name "TO-220_REN")
+EndComponent
+EndComponents

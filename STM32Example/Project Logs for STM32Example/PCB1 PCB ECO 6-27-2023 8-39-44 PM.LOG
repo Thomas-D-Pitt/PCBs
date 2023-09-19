@@ -1,0 +1,10 @@
+Added Pin To Net: NetName=MCU_SWITCH_2 Pin=J2-37
+Added Pin To Net: NetName=MCU_SWITCH_1 Pin=J2-38
+Added Pin To Net: NetName=MCU_SWITCH_2 Pin=J3-22
+Added Pin To Net: NetName=MCU_SWITCH_1 Pin=J3-23
+Change Net Name : Old Net Name=MCU_SWITCH_1 New Net Name=GPIO_38
+Change Net Name : Old Net Name=MCU_SWITCH_2 New Net Name=GPIO_37
+Added Pin To Net: NetName=MCU_SWITCH_1 Pin=U1-42
+Added Net: Name=MCU_SWITCH_1
+Added Pin To Net: NetName=MCU_SWITCH_2 Pin=U1-43
+Added Net: Name=MCU_SWITCH_2

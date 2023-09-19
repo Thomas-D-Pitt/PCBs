@@ -1,0 +1,19 @@
+Removed Pin From Net: NetName=GND_INPUT Pin=Input-1
+Removed Pin From Net: NetName=5V Pin=Input-3
+Removed Member From Class: ClassName=CurrentSensorLatch Member=SW?
+Change Component Footprint: Designator=Input Old Footprint=JST-B3P-VH(LF)(SN)-3_V New Footprint=Pin Header 1x3
+Change Component Comment : Designator=C15 Old Comment=22uF New Comment=2.2uF
+Change Component Comment : Designator=C16 Old Comment=22uF New Comment=2.2uF
+Change Component Comment : Designator=C19 Old Comment=22uF New Comment=2.2uF
+Change Component Comment : Designator=C20 Old Comment=22uF New Comment=2.2uF
+Change Component Comment : Designator=C27 Old Comment=22uF New Comment=2.2uF
+Change Component Comment : Designator=Input Old Comment=B3P-VH(LF)(SN) New Comment=Pin Header 1x3
+Change Component Designator: OldDesignator=SW? NewDesignator=SW1
+Change Component Designator: OldDesignator=SW? NewDesignator=SW2
+Change Managed Component Library Link : Designator=Input Old VaultGUID=31750D6C-83CF-449C-B984-54577DE77AD3 New VaultGUID= Old ItemGUID=9A1E9DE4-0EEA-403B-A5DE-479ED5AFA9B1 New ItemGUID= Old RevisionGUID=42820804-5DA3-4059-8C98-6C94DA3F93B8 New RevisionGUID=
+Change component parameters: Designator = "Input" ("Input"); Footprint = "JST-B3P-VH(LF)(SN)-3_V"; UniqueID = "\HXADKKKE" ("\HXADKKKE")
+Added Pin To Net: NetName=5V Pin=Input-1
+Added Pin To Net: NetName=GND_INPUT Pin=Input-3
+Change Net Name : Old Net Name=NetSW?_3 New Net Name=NetSW2_3
+Added Member To Class: ClassName=CurrentSensorLatch Member=Component SW2 EVQ-P2402M
+Added Room: Name=CurrentSensorLatch

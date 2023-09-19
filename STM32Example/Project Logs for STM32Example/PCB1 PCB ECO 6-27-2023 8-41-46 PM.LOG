@@ -1,0 +1,8 @@
+Removed Pin From Net: NetName=GPIO_38 Pin=R1-2
+Removed Pin From Net: NetName=GPIO_37 Pin=R2-2
+Removed Pin From Net: NetName=GPIO_38 Pin=SW1-1
+Removed Pin From Net: NetName=GPIO_37 Pin=SW2-1
+Added Pin To Net: NetName=MCU_SWITCH_1 Pin=R1-2
+Added Pin To Net: NetName=MCU_SWITCH_2 Pin=R2-2
+Added Pin To Net: NetName=MCU_SWITCH_1 Pin=SW1-1
+Added Pin To Net: NetName=MCU_SWITCH_2 Pin=SW2-1

@@ -1,0 +1,5 @@
+Removed Member From Class: ClassName=Shifter Member=SW2
+Change Component Comment : Designator=C23 Old Comment=22uF New Comment=2.2uF
+Change Component Comment : Designator=C24 Old Comment=22uF New Comment=2.2uF
+Added Member To Class: ClassName=Shifter Member=Component SW1 JS202011SCQN
+Added Room: Name=CurrentSensorLatch

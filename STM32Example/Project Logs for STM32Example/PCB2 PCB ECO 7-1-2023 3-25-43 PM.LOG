@@ -1,0 +1,19 @@
+Added Component: Designator=U1(TO-220_REN)
+Add component (AddParameter): Name = "Mfr_Name"; Value = "Renesas Electronics"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RefDes"; Value = "RefDes"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = "Type"; VariantName = "[No Variations]"
+Added Component: Designator=U2(SOIC-16_ONS)
+Add component (AddParameter): Name = "Mfr_Name"; Value = "onsemi"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RefDes"; Value = "RefDes"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = "Type"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=SR_Q Pin=U1-1
+Added Pin To Net: NetName=SHUNT_LOW Pin=U1-2
+Added Pin To Net: NetName=OUT_27 Pin=U1-3
+Added Pin To Net: NetName=SR_Q Pin=U2-2
+Added Pin To Net: NetName=Alert Pin=U2-3
+Added Pin To Net: NetName=SR_S Pin=U2-4
+Added Pin To Net: NetName=GND Pin=U2-8
+Added Pin To Net: NetName=5V Pin=U2-16
+Added Member To Class: ClassName=CurrentSensorLatch Member=Component U1 N0604N-S19-AY
+Added Member To Class: ClassName=CurrentSensorLatch Member=Component U2 MC14043BDR2G
+Added Room: Name=CurrentSensorLatch

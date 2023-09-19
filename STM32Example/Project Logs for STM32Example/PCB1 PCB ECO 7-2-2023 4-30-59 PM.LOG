@@ -1,0 +1,3 @@
+Change Component Designator: OldDesignator=SW? NewDesignator=SW1
+Change Component Designator: OldDesignator=SW? NewDesignator=SW2
+Added Member To Class: ClassName=MCU Member=Component SW2 EVQ-P2402M

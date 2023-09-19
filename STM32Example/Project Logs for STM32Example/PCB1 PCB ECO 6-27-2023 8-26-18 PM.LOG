@@ -1,0 +1,4 @@
+Removed Pin From Net: NetName=MCU_SWDIO Pin=J1-3
+Removed Pin From Net: NetName=MCU_SWO Pin=J1-6
+Added Pin To Net: NetName=MCU_SWO Pin=J1-3
+Added Pin To Net: NetName=MCU_SWDIO Pin=J1-6
